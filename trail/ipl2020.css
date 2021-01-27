@@ -1,0 +1,13 @@
+header{
+    color: black;
+    background-color: yellow;
+    width: 50%;
+}
+div{
+    color: tomato;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background-color: turquoise;
+}
