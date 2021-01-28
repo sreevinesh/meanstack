@@ -1,0 +1,20 @@
+#top{
+    background-color: aqua;
+    border-style: solid;
+    color: blue;
+    width: 50%;
+    /* margin-left: 25%;
+    padding-left: 25%; */
+}
+#bottom{
+    background-color: chartreuse;
+    color: crimson;
+    border: solid blue;
+    width: 50%;
+    margin-left: 25%;
+     margin-top: 50%;
+    padding-left: 25%;
+} 
+h2{
+    font-family: 'Londrina Solid';
+}

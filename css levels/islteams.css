@@ -10,6 +10,7 @@ h2{
     width: 50%;
     color: darkgoldenrod;
     background-color: blue;
+    float: left;
 }
 #kbfc{
     font-family:fantasy;
@@ -20,12 +21,14 @@ h2{
     width: 50%;
     color: blue;
     background-color: yellow;
+    float: left;
 }
 #fg{
     border:white solid 2px;
     width: 50%;
     color: orangered;
     background-color: black;
+    float: left;
 }
 .cls{
     color: blanchedalmond;
