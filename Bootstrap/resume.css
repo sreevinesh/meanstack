@@ -1,0 +1,33 @@
+.card-title{
+    border:solid black;20px; 
+    background-color:white;
+    font-weight: 600;
+    font-size: 20px;
+}
+h6{ 
+    text-align: center;
+    background-color: cornflowerblue;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.education{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+}
+.institution{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+}
+.col-4{
+    left: 5%;
+    border:black solid 20px;
+}
+.col-8{
+    border:black solid 20px;
+    background-color: white;
+}
