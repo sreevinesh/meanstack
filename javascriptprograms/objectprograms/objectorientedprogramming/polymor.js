@@ -1,16 +1,18 @@
 //method over loading
 //method over riding
-class Maths{
-    add(num){
+class Maths {
+    add(num) {
         console.log("inside single attri method");
     }
-    add(num1,num2){
+    add(num1, num2) {
         console.log("inside two arg method");
     }
-    add(num1,num2,num3){
+    add(num1, num2, num3) {
         console.log("inside three argmnt method");
     }
 }
-var ch=new Maths()
-ch.add(1,2,3)
-ch.add(2,4)
+var obj = new Maths()
+obj.add(1, 2, 3, 4)
+
+
+

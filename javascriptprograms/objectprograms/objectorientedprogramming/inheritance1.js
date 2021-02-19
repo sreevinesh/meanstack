@@ -9,12 +9,13 @@ class Child extends Parent{
     }
 
 }
-class SubChild extend child{
+class SubChild extends Child{
     m3(){
+        console.log("have hero");
 
     }
 }
 var ch=new Child()
-ch.m3();
+// ch.m3();
 ch.m2();
 ch.m1();

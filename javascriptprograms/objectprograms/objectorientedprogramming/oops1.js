@@ -2,7 +2,7 @@
 //object
 //reference
 class Person {
-    constructor(name, age, gender) {
+    addPerson(name, age, gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
@@ -14,5 +14,6 @@ class Person {
 
     }
 }
-var obj1 = new Person("akhil",21);
-console.log(obj1.name);
+var obj1 = new Person()
+obj1.addPerson("vinesh",21,"male")
+obj1.printPerson()

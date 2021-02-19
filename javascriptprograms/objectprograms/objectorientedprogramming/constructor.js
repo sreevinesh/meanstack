@@ -1,5 +1,5 @@
 class Bank{
-    createAccount(acno,pname,minbal){
+    constructor(acno,pname,minbal){
         this.acno=acno;
         this.pnam=pname;
         this.minbal=minbal;
@@ -23,8 +23,7 @@ class Bank{
         console.log("avilable balance "+this.minbal);
     }
 }
-var obj=new Bank();
-obj.createAccount(11,"akhil",2000)
+var obj=new Bank(11,"akhil",2000);
 obj.deposit(1000)
-obj.withdraw(2000)
+obj.withdraw(3000)
 obj.balanceEng()
