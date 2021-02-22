@@ -1,9 +1,9 @@
 class Employee{
-    constructor(id,name,desig,salaray){
+    constructor(id,name,desig,salary){
         this.id=id
         this.name=name
         this.desig=desig
-        this.salaray=salaray
+        this.salaray=salary
     }
 }
 var obj=new Employee(100,"ajay","developer",25000)
@@ -20,11 +20,11 @@ for(let emp of employee){
         console.log(emp);
     }
 }
-ename=employee.map(emp=>emp.name.toUpperCase())
-console.log(ename);
+// ename=employee.map(emp=>emp.name.toUpperCase())
+// console.log(ename);
 
-employee.filter(emp=>emp.desig=="developer").forEach(o=>console.log(o.name))
+// employee.filter(emp=>emp.desig=="developer").forEach(o=>console.log(o.name))
 
-var maxsal=employee.map(emp=>emp.salaray).reduce((num1,num2)=>num1>num2?num1:num2)
-console.log(maxsal);
-employee.sort((emp1,emp2)=>emp1.sal>emp2.sal?-1:1).forEach(emp=>console.log(emp))
+// var maxsal=employee.map(emp=>emp.salaray).reduce((num1,num2)=>num1>num2?num1:num2)
+// console.log(maxsal);
+employee.sort((emp1,emp2)=>emp1.salary>emp2.salary?emp1:emp2).forEach(o=>console.log(o))
