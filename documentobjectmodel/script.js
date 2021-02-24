@@ -8,8 +8,8 @@
 // for(let item of lst){
 //     item.style.color="red"
 // }
-// var ht=document.getElementById("hone");
-// ht.style.color="yellow"
+var ht=document.getElementById("hone");
+ht.style.color="yellow"
 
 
 
@@ -19,10 +19,10 @@
 // }
 
 
-var heads=document.querySelectorAll("h1")
-for(let hd of heads){
-    hd.style.color="pink"
-}
+// var heads=document.querySelectorAll("h1")
+// for(let hd of heads){
+//     hd.style.color="pink"
+// }
 
-var hone=document.querySelector("#hone")
-hone.style.color="blue"
+// var hone=document.querySelector("#hone")
+// hone.style.color="blue"

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>benk</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="bank.js"></script>
+</head>
+
+<body style="width: 100%;height: 100%; background-image: url('geometry-background.jpeg'); margin-top: 25px; background-color: gray;">
+  
+  <div style="text-align: center;"  class="container">
+    <h1 style="color:white; margin-top:30px;">State Bank Of India</h1>
+  </div>
+
+
+  <form>
+    <div style="width: 35%;height: 330px; ; background-color: white ; border-radius: 2px;" class="container">
+      <div class="mb-3">
+        <label style="margin-top: 7px;" for="acno" class="form-label">Account number</label>
+        <input type="text" class="form-control" id="acno">
+
+      </div>
+      <div class="mb-3">
+        <label for="pswd" class="form-label">password</label>
+        <input type="password" class="form-control" id="pswd">
+        <div id="emailHelp" class="form-text">We'll never share your password with anyone else.</div>
+      </div>
+      <!-- <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div> -->
+      <!-- <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">nekkikko</label>
+        </div> -->
+      <div style="display: flex;justify-content: center;">
+        <button type="button" onclick="Bank.login()" class="btn btn-primary">submit</button>
+      </div>
+  </form>
+
+  </div>
+</div>
+
+</body>
+
+</html>
