@@ -13,7 +13,7 @@ button{
     padding: 16px 27px;
     font-weight: 600;
     margin-top: 21px;
-    border-radius: 50px;
+    border-radius: 30px;
     border: 2px solid #5e068a;
     background-color: #5e068a; 
     color: white;
@@ -24,7 +24,7 @@ button:hover{
 }
 
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) { */
     .hd{
         margin-top: 10%;
         color: red;
@@ -60,4 +60,13 @@ h6{
 }
 .link{
     color: #5e068a;
+}
+.card1{
+    margin-top: 10%;
+}
+.card2{
+    margin-top: 10%;
+}
+.card3{
+    margin-top: 10%;
 }
